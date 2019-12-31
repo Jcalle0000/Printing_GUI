@@ -13,8 +13,8 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QGroupBox" name="groupBox">
+  <widget class="QWidget" name="Menu_GUI">
+   <widget class="QGroupBox" name="Cente_GUI">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -26,7 +26,7 @@
     <property name="title">
      <string>GroupBox</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -112,6 +112,19 @@
      </property>
      <property name="text">
       <string>LogIn</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Status_User_info">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>320</y>
+       <width>221</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Status: For User Info:</string>
      </property>
     </widget>
    </widget>

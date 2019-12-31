@@ -13,17 +13,92 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="Release_page_label">
    <property name="geometry">
     <rect>
-     <x>138</x>
-     <y>100</y>
-     <width>121</width>
+     <x>20</x>
+     <y>30</y>
+     <width>211</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Awesome!</string>
+    <string>Release Station</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Full_Name_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Full Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Name_content_label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>58</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="GUI_label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>40</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Printing Files in Queue</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pages">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Current Pages</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pages_to_print">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pages to Print</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Number">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
    </property>
   </widget>
  </widget>

@@ -3,6 +3,16 @@
 
 #include <QMainWindow>
 #include "secdialog.h"
+#include "third_dialog.h"
+
+//added from the thirdcpp
+#include<QtSql>
+#include<QDebug>
+#include<QFileInfo>
+
+#include<QSqlDatabase>
+#include<QSqlQuery>
+#include<QSqlDriver>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -11,6 +21,8 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
+public:
+     QSqlDatabase mydb;
 
 public:
     MainWindow(QWidget *parent = nullptr);
@@ -27,6 +39,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     SecDialog *SecDialog_Object; // we are pointing to this object using the SecDialog class
-//    Third_Dialog *Third_Dialog_Object; // Third_Dialog
+    Third_Dialog *Third_Dialog_Object; // Third_Dialog
+//     QSqlDatabase mydb;
 };
 #endif // MAINWINDOW_H
